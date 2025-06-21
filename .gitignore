@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Virtual Environment
+.venv/
+venv/
+env/
+*/venv/
+*/.venv/
+
+# IDEs and Editors
+.vscode/        # VS Code settings (unless you specifically want to share launch configs etc.)
+.idea/          # PyCharm/IntelliJ
+*.sublime-project
+*.sublime-workspace
+
+# Operating System files
+.DS_Store       # macOS
+Thumbs.db       # Windows
+desktop.ini     # Windows
+
+# Log files
+*.log
+logs/
+
+# Data files that are generated or too large
+*.db
+*.sqlite3
+
+# Large binary assets (if you have any that aren't critical to version control, or are too big)
+# However, for 3D models, you usually DO want to track them.
+# If your model files are consistently over ~100MB each, consider Git LFS (see below).
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
